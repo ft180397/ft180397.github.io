@@ -1,0 +1,381 @@
+.contenedor {
+    
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.contenido-home {
+    padding: 5px 0;
+    text-align: center;
+    color:#00a99d;
+}
+
+/* h4 es para tipografia de .contenido-home */
+h4 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight:500;
+    margin: 15px;
+    
+    
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    align-items: center;
+   padding-right: 18px;
+        
+}
+
+.busqueda {
+    
+    align-content: center;
+}
+
+input {
+    padding: 5px 25px 5px 15px;
+    width: 250px;
+    height: 25px;
+}
+
+button {
+    background-color: #1295c9;
+    padding: 5px 10px;
+    border: 0;
+    color: white;
+}
+
+#menu {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #dae9ea;
+    padding: 0 100px;
+    height: 60px;
+    }
+    
+#banner {
+    background-image: url(../img/banner3.jpg);
+    background-size:cover;
+    height: 341px;
+    
+   
+    
+}
+
+
+#objetivo {
+    
+    background-image: url(../img/bangris.jpg);
+    background-size:cover;
+    height: 160px;
+    padding: 5px 0;
+    
+}
+
+
+
+
+
+
+.texto {
+    margin: 0 90px;
+    padding: 40px 15px;
+    width: 330px;
+    justify-content: center;
+    color: white;
+}
+
+#testimonio {
+    
+    background-image: url(../img/testimonios2.jpg);
+    background-size: cover;
+    height: 341px;
+    
+    
+}
+
+#testimonio button {
+    margin: 300px 459px;
+    width: 100px;
+    background-color: #dae9ea;
+    color: black;
+    
+  
+       
+}
+
+#informacion {
+    
+    background-image: url(../img/dospersonas.jpg);
+    background-size: cover;
+    height: 377px;
+}
+
+.texto2 {
+    
+    margin: 0 90px;
+    padding: 60px 15px;
+    width: 370px;
+    text-align: justify;
+    line-height: 1.4em;
+    
+    
+}
+
+a {
+    color: black
+}
+
+h1 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight:600;
+}
+
+h2 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight:400;
+    
+}
+
+p {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight:normal;
+    text-align:justify center;
+    line-height: 1.3em;
+
+    
+}
+
+
+h3 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight:600;
+    color: #1295c9;
+    text-align: center;
+    
+    
+}
+
+
+
+.texto3 h1{
+    margin: 0 410px;
+    padding: 27px 15px;
+    width: 300px;
+    justify-content: center;
+    
+}
+
+.texto2 p {
+    line-height: 1.5em;
+}
+
+.texto3 p {
+    margin: -10px 10px;
+    padding: 0 100px;
+    justify-content:center;
+    text-align: justify center;
+    color: #4d4d4d;
+    
+    
+}
+
+.beneficios p {
+    line-height: 1.5em;
+    color: #4d4d4d;
+}
+
+.preguntas {
+    
+    text-align: center;
+}
+
+#beneficios img {
+    
+   margin-left: 95px;
+    
+    
+}
+
+#perfil {
+    
+    display: flex;
+    
+    padding-top: 15px;
+    
+}
+
+.text {
+    padding-left: 20px;
+    
+}
+
+
+
+#menu2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:#f2f2f2;
+    padding: 0 160px;
+    height: 40px;
+    }
+
+#usuario {
+    
+    padding-bottom: 40px;
+}
+
+
+
+
+.marcas h3 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight:600;
+    color: #4d4d4d;
+    text-align: left;
+    
+}
+
+.marcas p {
+    
+    text-align: left;
+}
+
+.row {
+    
+    
+    padding-top: 20px;
+}
+
+.resultados {
+    
+    margin-bottom: 50px;
+    margin-left: 350px;
+    margin-top:50px;
+}
+
+
+.resultados button {
+    background-color: white;
+    padding: 15px 100px;
+    border: #666666 1px solid;
+    color: #666666;
+}
+
+#marcas row {
+    width: 23.33%;
+}
+
+/*AQUI COMIENZAN LOS ESTILOS PARA ELEMENTOS de "primer menu" 
+desde: notificaciones.. etc*/
+
+
+.notificaciones img {
+    margin-left: 40px;
+}
+
+.notificaciones {
+    margin-bottom: 33px;
+}
+
+.perfil img {
+    margin-left: 8px;
+    
+}
+
+.perfil {
+    margin-bottom: 33px;
+}
+
+.cesta {
+    margin-bottom: 33px;
+}
+
+
+/* INICIO DE ESTILOS PARA PANTALLA: "Feed entrada"*/
+
+#banner2 {
+    background-image: url(../img/banner2.jpg);
+    background-size:cover;
+    height: 341px;
+    
+   
+    
+}
+
+.espacio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+
+.espacio h1 {
+    
+    text-align: center;
+    color: white;
+}
+
+.destacados {
+    width: 200px;
+    background-color: #f2f2f2;
+    
+
+}
+
+#banner2 ccol-4 {
+    
+    width: 200px;
+}
+
+
+.destacados , .ccol-4 {
+    width:  200px;
+    margin-right: 50px;
+    height: 335px;
+    
+}
+
+.centrado , .roow {
+    
+    margin-left: 75px;
+    height: 410px;
+    
+    
+  
+}
+
+.puntuacion {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.textos img {
+    
+    margin-left: 15px;
+}
+
+.recomendaciones {
+    padding-left: 20px;
+}
+
+/*aqui se regula el padding de id=cajas*/
+#cajas {
+    
+    padding-top: 330px;
+}
